@@ -2,8 +2,6 @@
 
 **The arena where India's reconciliation agents prove themselves.**
 
-Built for the **Razorpay AI Buildathon** — Open Track (05).
-
 > ReconArena is not a reconciliation agent. It is infrastructure for
 > *testing* one — the way ImageNet is infrastructure for testing an image
 > classifier, not a classifier itself.
@@ -123,14 +121,14 @@ actually caught:
 
 Across the sample datasets alone, the gap between a reconciliation agent
 that actually works and one that doesn't is **over ₹16.9 lakh** of
-undetected leakage. That's the number a judge — or a merchant risk team —
-actually cares about.
+undetected leakage. That's the number a merchant risk team actually
+cares about.
 
 ## Model-agnostic by design
 
 ReconArena ships two deterministic, rule-based reference agents on
 purpose — it keeps the benchmark reproducible and free to run for anyone
-grading a submission. But the leaderboard's agent contract
+evaluating it. But the leaderboard's agent contract
 (`scorer/leaderboard.py`'s `AGENTS` registry) only requires an agent to
 consume a tier's `transactions.json` / `settlements.json` /
 `bank_statement.json` / `vendor_rates.json` and emit verdicts in one
@@ -139,8 +137,8 @@ fixed schema (`payment_id`, `verdict`, `issue_type`, `explanation`).
 Any agent that meets that contract — rule-based, classical ML, or
 LLM-based — plugs directly into the leaderboard and scorer with **zero
 changes to ReconArena itself**. This demo intentionally stays free and
-deterministic; a production LLM-based reconciliation agent — Razorpay's
-own included — could be benchmarked here as-is.
+deterministic; a production LLM-based reconciliation agent could be
+benchmarked here as-is.
 
 ## Interactive dashboard
 
