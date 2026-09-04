@@ -1,0 +1,5 @@
+{
+  "outputDirectory": "dashboard",
+  "cleanUrls": true,
+  "trailingSlash": false
+}

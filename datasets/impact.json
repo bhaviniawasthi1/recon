@@ -1,0 +1,64 @@
+{
+  "smart": {
+    "per_tier": {
+      "easy": {
+        "n_at_risk": 18,
+        "at_risk_inr": 384454.66,
+        "caught_inr": 384454.66,
+        "missed_inr": 0.0,
+        "caught_pct": 1.0
+      },
+      "medium": {
+        "n_at_risk": 21,
+        "at_risk_inr": 460963.89,
+        "caught_inr": 433279.59,
+        "missed_inr": 27684.3,
+        "caught_pct": 0.9399
+      },
+      "hard": {
+        "n_at_risk": 35,
+        "at_risk_inr": 852953.76,
+        "caught_inr": 852953.76,
+        "missed_inr": 0.0,
+        "caught_pct": 1.0
+      }
+    },
+    "overall": {
+      "at_risk_inr": 1698372.31,
+      "caught_inr": 1670688.01,
+      "missed_inr": 27684.3,
+      "caught_pct": 0.9837
+    }
+  },
+  "naive": {
+    "per_tier": {
+      "easy": {
+        "n_at_risk": 18,
+        "at_risk_inr": 384454.66,
+        "caught_inr": 0.0,
+        "missed_inr": 384454.66,
+        "caught_pct": 0.0
+      },
+      "medium": {
+        "n_at_risk": 21,
+        "at_risk_inr": 460963.89,
+        "caught_inr": 0.0,
+        "missed_inr": 460963.89,
+        "caught_pct": 0.0
+      },
+      "hard": {
+        "n_at_risk": 35,
+        "at_risk_inr": 852953.76,
+        "caught_inr": 0.0,
+        "missed_inr": 852953.76,
+        "caught_pct": 0.0
+      }
+    },
+    "overall": {
+      "at_risk_inr": 1698372.31,
+      "caught_inr": 0.0,
+      "missed_inr": 1698372.31,
+      "caught_pct": 0.0
+    }
+  }
+}

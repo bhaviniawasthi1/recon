@@ -1,0 +1,602 @@
+[
+  {
+    "payment_id": "pay_537c9792ab8755",
+    "settlement_id": "setl_1cacad0b28b765",
+    "bank_ref": "UTR183982D296AF",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 0.0 (omitted), correct 18% GST on MDR fee INR 239.91 is INR 43.18 (delta INR -43.18)",
+    "difficulty": "hard",
+    "notes": "variant=omitted; correct_gst=43.18; wrong_gst=0.0"
+  },
+  {
+    "payment_id": "pay_4223053b214a79",
+    "settlement_id": "setl_d1139b9af5e804",
+    "bank_ref": "UTR09AF7530B5B9",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 0.0 (folded_into_mdr), correct 18% GST on MDR fee INR 228.37 is INR 34.84 (delta INR -34.84)",
+    "difficulty": "hard",
+    "notes": "variant=folded_into_mdr; correct_gst=34.84; wrong_gst=0.0"
+  },
+  {
+    "payment_id": "pay_bc935110cb477e",
+    "settlement_id": "setl_bcd448ced6e3fa",
+    "bank_ref": "UTR0260D2CC2842",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 311.02 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=311.02"
+  },
+  {
+    "payment_id": "pay_5712caa65c66c4",
+    "settlement_id": "setl_6ee870afffb91f",
+    "bank_ref": "UTR9F82AF07AD05",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 380.82 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "[overlap: gst_mdr_miscalc + amount_mismatch] unexplained_delta=380.82"
+  },
+  {
+    "payment_id": "pay_b030391d2dab5a",
+    "settlement_id": "setl_d4a7163bfaa2ac",
+    "bank_ref": "UTRF5FF912A7BAF",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.04 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.04 (red herring)"
+  },
+  {
+    "payment_id": "pay_8c0f135d4d596e",
+    "settlement_id": "setl_f18858d221b7c6",
+    "bank_ref": "UTR1309439221E5",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 342.95 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=342.95"
+  },
+  {
+    "payment_id": "pay_5cac216ed34f1e",
+    "settlement_id": "setl_811f16c812b0ca",
+    "bank_ref": "UTRB12306AF6995",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.02 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.02 (red herring)"
+  },
+  {
+    "payment_id": "pay_e8c4d180253dea",
+    "settlement_id": "setl_aeed7f5da28acf",
+    "bank_ref": "UTR61D0C6496709",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_bc5c741c25c8a3",
+    "settlement_id": "setl_363d1000b27beb",
+    "bank_ref": "U T R 3 0 1DCFD42AA3",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'U T R 3 0 1DCFD42AA3' does not string-match settlement UTR 'UTR301DCFD42AA3', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "[overlap: commission_miscalc + utr_mismatch] variant=whitespace; true_utr=UTR301DCFD42AA3"
+  },
+  {
+    "payment_id": "pay_8ab9fe9552637e",
+    "settlement_id": "setl_49e94266d15ef9",
+    "bank_ref": "UTR34A18D1",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'UTR34A18D1' does not string-match settlement UTR 'UTR34A18D19CBB1', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "[overlap: gst_mdr_miscalc + utr_mismatch] variant=truncate; true_utr=UTR34A18D19CBB1"
+  },
+  {
+    "payment_id": "pay_95d7917c3f8f03",
+    "settlement_id": "setl_c4b02ee367935d",
+    "bank_ref": "UTRF2A55C0CA8F3",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 0.0 (folded_into_mdr), correct 18% GST on MDR fee INR 942.94 is INR 143.84 (delta INR -143.84)",
+    "difficulty": "hard",
+    "notes": "[overlap: tds_miscalc + gst_mdr_miscalc] variant=folded_into_mdr; correct_gst=143.84; wrong_gst=0.0"
+  },
+  {
+    "payment_id": "pay_cd528c5e1cb94d",
+    "settlement_id": "setl_7af70ef9399a7a",
+    "bank_ref": "UTR2C957838C65C",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_b3b09a2df16aaf",
+    "settlement_id": "setl_04fa314f4d3d65",
+    "bank_ref": "UTR35FFB112A350",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_38f1eb00a7035c",
+    "settlement_id": "setl_590e5b0ef15238",
+    "bank_ref": "UTRAB9A6DCACC2C",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 266.75 (legacy_rate), correct Sec 194O TDS on gross INR 26675.21 is INR 26.68 (delta INR 240.07)",
+    "difficulty": "hard",
+    "notes": "[overlap: gst_mdr_miscalc + tds_miscalc] variant=legacy_rate; correct_tds=26.68; wrong_tds=266.75"
+  },
+  {
+    "payment_id": "pay_04b62e8a0df9fa",
+    "settlement_id": "setl_7f099294a78652",
+    "bank_ref": "UTR54F7ACE68A29",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.03 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.03 (red herring)"
+  },
+  {
+    "payment_id": "pay_170241fea37fec",
+    "settlement_id": "setl_9beb381ea18907",
+    "bank_ref": "UTR8EFBFE9E6F1F",
+    "issue_type": "missing_settlement",
+    "expected_match": false,
+    "expected_verdict": "no match: settlement/bank credit never arrived for this transaction -- should be flagged as unreconciled, not silently dropped",
+    "difficulty": "hard",
+    "notes": "settlement and bank_entry are withheld by the generator"
+  },
+  {
+    "payment_id": "pay_a5a01c5e1cd862",
+    "settlement_id": "setl_e2e0fde341623a",
+    "bank_ref": "UTRCE8F009F3B7A",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 88.45 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=88.45"
+  },
+  {
+    "payment_id": "pay_6531ea62038457",
+    "settlement_id": "setl_55d125a16d40dc",
+    "bank_ref": "U T R E 0 B881FD5457",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'U T R E 0 B881FD5457' does not string-match settlement UTR 'UTRE0B881FD5457', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "variant=whitespace; true_utr=UTRE0B881FD5457"
+  },
+  {
+    "payment_id": "pay_b6ab9e2f7d0498",
+    "settlement_id": "setl_bb598c853ded92",
+    "bank_ref": "BATCH9026/36FC9141",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'BATCH9026/36FC9141' does not string-match settlement UTR 'UTR995936FC9141', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "[overlap: gst_mdr_miscalc + utr_mismatch] variant=prefix_batch; true_utr=UTR995936FC9141"
+  },
+  {
+    "payment_id": "pay_896555d305afc1",
+    "settlement_id": "setl_9c110666c740a7",
+    "bank_ref": "UTR3BBBC496D73D",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_ec64c435a25929",
+    "settlement_id": "setl_5f5955fb0a8e1f",
+    "bank_ref": "UTR0BB94260FB49",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 0.0 (folded_into_mdr), correct 18% GST on MDR fee INR 919.9 is INR 140.32 (delta INR -140.32)",
+    "difficulty": "hard",
+    "notes": "variant=folded_into_mdr; correct_gst=140.32; wrong_gst=0.0"
+  },
+  {
+    "payment_id": "pay_e549c02202ffc8",
+    "settlement_id": "setl_08d346836ae6f3",
+    "bank_ref": "UTR117C84AC8BCD",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 225.59 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=225.59"
+  },
+  {
+    "payment_id": "pay_d0f0be6a0859bb",
+    "settlement_id": "setl_86c237796ea70d",
+    "bank_ref": "UTR03FB55AA4CA7",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_310431da3e21ec",
+    "settlement_id": "setl_054854a0c6b8eb",
+    "bank_ref": "UTR84785D62BA0A",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.0 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.0 (red herring)"
+  },
+  {
+    "payment_id": "pay_6e2fdda2f5c6c4",
+    "settlement_id": "setl_aa13e674740c47",
+    "bank_ref": "UTREE2AE926ED80",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.0 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.0 (red herring)"
+  },
+  {
+    "payment_id": "pay_4132fc78211a47",
+    "settlement_id": "setl_ee735151b6afeb",
+    "bank_ref": "UTR07F613DD9F8D",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 0.0 (omitted), correct Sec 194O TDS on gross INR 4227.62 is INR 4.23 (delta INR -4.23)",
+    "difficulty": "hard",
+    "notes": "variant=omitted; correct_tds=4.23; wrong_tds=0.0"
+  },
+  {
+    "payment_id": "pay_bc95444cf7035d",
+    "settlement_id": "setl_e674fae0cfee9f",
+    "bank_ref": "UTR7EA6413F14CF",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.01 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.01 (red herring)"
+  },
+  {
+    "payment_id": "pay_d593dfa2bcac7c",
+    "settlement_id": "setl_96e139c25d919a",
+    "bank_ref": "utr5666ba1b24f1",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'utr5666ba1b24f1' does not string-match settlement UTR 'UTR5666BA1B24F1', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "[overlap: commission_miscalc + utr_mismatch] variant=case_shuffle; true_utr=UTR5666BA1B24F1"
+  },
+  {
+    "payment_id": "pay_17cf2062bf68fa",
+    "settlement_id": "setl_e9cfffa53aa60d",
+    "bank_ref": "UTRF70B94288F72",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_dd74c87ba70dd0",
+    "settlement_id": "setl_e6164b30a5ee8c",
+    "bank_ref": "UTR24D0B32F3BDF",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.01 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.01 (red herring)"
+  },
+  {
+    "payment_id": "pay_3ac4563fcf7f67",
+    "settlement_id": "setl_dcd8807d6a9d68",
+    "bank_ref": "UTRB8D5519",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'UTRB8D5519' does not string-match settlement UTR 'UTRB8D551971AA1', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "variant=truncate; true_utr=UTRB8D551971AA1"
+  },
+  {
+    "payment_id": "pay_30096186ca4f23",
+    "settlement_id": "setl_0f19f5eace3bff",
+    "bank_ref": "UTR2FA25DDFBDA5",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_02c778de812479",
+    "settlement_id": "setl_bc6b45fa6b4ec2",
+    "bank_ref": "utr92e19d7d6d10",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'utr92e19d7d6d10' does not string-match settlement UTR 'UTR92E19D7D6D10', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "variant=case_shuffle; true_utr=UTR92E19D7D6D10"
+  },
+  {
+    "payment_id": "pay_a21ea3f0739ffb",
+    "settlement_id": "setl_68afa3516f715d",
+    "bank_ref": "UTR6A5625EFAEE6",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 458.31 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=458.31"
+  },
+  {
+    "payment_id": "pay_7eb00adef88e37",
+    "settlement_id": "setl_f6ad41d1e987ae",
+    "bank_ref": "UTR41D45C47D756",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 0.0 (omitted), correct Sec 194O TDS on gross INR 33873.11 is INR 33.87 (delta INR -33.87)",
+    "difficulty": "hard",
+    "notes": "variant=omitted; correct_tds=33.87; wrong_tds=0.0"
+  },
+  {
+    "payment_id": "pay_d69814d82cd49c",
+    "settlement_id": "setl_05f5814817476c",
+    "bank_ref": "UTR2B51EE131441",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 328.74 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "unexplained_delta=328.74"
+  },
+  {
+    "payment_id": "pay_c300044656be3e",
+    "settlement_id": "setl_dce526461a9f21",
+    "bank_ref": "UTR99579EF6D846",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 65.12 (double_deducted), correct Sec 194O TDS on gross INR 32555.84 is INR 32.56 (delta INR 32.56)",
+    "difficulty": "hard",
+    "notes": "[overlap: commission_miscalc + tds_miscalc] variant=double_deducted; correct_tds=32.56; wrong_tds=65.12"
+  },
+  {
+    "payment_id": "pay_725ae0a80bdcbb",
+    "settlement_id": "setl_e917ce4a80095f",
+    "bank_ref": "UTR33D9CAD7DDE0",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 112.6 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "[overlap: gst_mdr_miscalc + amount_mismatch] unexplained_delta=112.6"
+  },
+  {
+    "payment_id": "pay_4018410e4ac755",
+    "settlement_id": "setl_157f8f4d050c51",
+    "bank_ref": "UTR12CE7606C536",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 40.74 (double_deducted), correct Sec 194O TDS on gross INR 20374.12 is INR 20.37 (delta INR 20.37)",
+    "difficulty": "hard",
+    "notes": "variant=double_deducted; correct_tds=20.37; wrong_tds=40.74"
+  },
+  {
+    "payment_id": "pay_fc21971944fc0b",
+    "settlement_id": "setl_fad2917356d0ed",
+    "bank_ref": "UTRA9A2C1F1A423",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.04 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.04 (red herring)"
+  },
+  {
+    "payment_id": "pay_5d103880a1ce6e",
+    "settlement_id": "setl_0374051558c245",
+    "bank_ref": "UTR22E14F735438",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 50.52 (double_deducted), correct Sec 194O TDS on gross INR 25256.64 is INR 25.26 (delta INR 25.26)",
+    "difficulty": "hard",
+    "notes": "variant=double_deducted; correct_tds=25.26; wrong_tds=50.52"
+  },
+  {
+    "payment_id": "pay_ca10992923eb0b",
+    "settlement_id": "setl_22320f4e849ea1",
+    "bank_ref": "UTRC9902F82338D",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 16.36 (wrong_rate), correct 18% GST on MDR fee INR 136.34 is INR 24.54 (delta INR -8.18)",
+    "difficulty": "hard",
+    "notes": "variant=wrong_rate; correct_gst=24.54; wrong_gst=16.36"
+  },
+  {
+    "payment_id": "pay_2cde93ed474721",
+    "settlement_id": "setl_7567f15701c153",
+    "bank_ref": "UTRA649944EDFD6",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 16.16 (double_deducted), correct Sec 194O TDS on gross INR 8081.63 is INR 8.08 (delta INR 8.08)",
+    "difficulty": "hard",
+    "notes": "[overlap: amount_mismatch + tds_miscalc] variant=double_deducted; correct_tds=8.08; wrong_tds=16.16"
+  },
+  {
+    "payment_id": "pay_a67b6930a624ac",
+    "settlement_id": "setl_2f846a91cb494b",
+    "bank_ref": "UTR9336D93CB523",
+    "issue_type": "missing_settlement",
+    "expected_match": false,
+    "expected_verdict": "no match: settlement/bank credit never arrived for this transaction -- should be flagged as unreconciled, not silently dropped",
+    "difficulty": "hard",
+    "notes": "settlement and bank_entry are withheld by the generator"
+  },
+  {
+    "payment_id": "pay_780e849f9328df",
+    "settlement_id": "setl_52b3e8e898ecfd",
+    "bank_ref": "utr9de676648d2c",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 0.0 (omitted), correct 18% GST on MDR fee INR 0.0 is INR 0.0 (delta INR 0.0)",
+    "difficulty": "hard",
+    "notes": "[overlap: utr_mismatch + gst_mdr_miscalc] variant=omitted; correct_gst=0.0; wrong_gst=0.0"
+  },
+  {
+    "payment_id": "pay_d8c09aad62f495",
+    "settlement_id": "setl_1b724000021def",
+    "bank_ref": "UTR75E8403A4651",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_45e0049b829b73",
+    "settlement_id": "setl_974f2aab9460b6",
+    "bank_ref": "UTR76CA37AA846A",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.03 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.03 (red herring)"
+  },
+  {
+    "payment_id": "pay_5a89178b144de2",
+    "settlement_id": "setl_a43cd19876b424",
+    "bank_ref": "UTRCEB2FA2DAD91",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.03 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.03 (red herring)"
+  },
+  {
+    "payment_id": "pay_4056c29b82de8e",
+    "settlement_id": "setl_183bdecfac87e5",
+    "bank_ref": "UTR063CCAFC1C09",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 96.04 (wrong_rate), correct 18% GST on MDR fee INR 800.32 is INR 144.06 (delta INR -48.02)",
+    "difficulty": "hard",
+    "notes": "[overlap: tds_miscalc + gst_mdr_miscalc] variant=wrong_rate; correct_gst=144.06; wrong_gst=96.04"
+  },
+  {
+    "payment_id": "pay_0725877d2c094f",
+    "settlement_id": "setl_77f643f9488449",
+    "bank_ref": "UTRD87087DD6606",
+    "issue_type": "commission_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag vendor commission discrepancy: settlement deducted INR 719.14 (stale_rate), correct commission for vendor_8 at contracted rate 8.1% of gross INR 7650.42 is INR 619.68 (delta INR 99.46)",
+    "difficulty": "hard",
+    "notes": "variant=stale_rate; vendor=vendor_8; correct_commission=619.68; wrong_commission=719.14"
+  },
+  {
+    "payment_id": "pay_12786c543d6238",
+    "settlement_id": "setl_fd2dd488a6e8c3",
+    "bank_ref": "UTR754039FAAF30",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 33.31 (wrong_rate), correct 18% GST on MDR fee INR 277.6 is INR 49.97 (delta INR -16.66)",
+    "difficulty": "hard",
+    "notes": "variant=wrong_rate; correct_gst=49.97; wrong_gst=33.31"
+  },
+  {
+    "payment_id": "pay_df1429b8b0eeff",
+    "settlement_id": "setl_78e01e2579c478",
+    "bank_ref": "BATCH7649/5B185C6A",
+    "issue_type": "utr_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched via internal_txn_id + amount + date fallback (bank narration UTR 'BATCH7649/5B185C6A' does not string-match settlement UTR 'UTR6F235B185C6A', but it is the same payout)",
+    "difficulty": "hard",
+    "notes": "variant=prefix_batch; true_utr=UTR6F235B185C6A"
+  },
+  {
+    "payment_id": "pay_2d0da3b5b72c6f",
+    "settlement_id": "setl_5ac61e85f5e0b0",
+    "bank_ref": "UTR4D48A3664E52",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR 0.04 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=0.04 (red herring)"
+  },
+  {
+    "payment_id": "pay_cab6134307f168",
+    "settlement_id": "setl_f1a380a5eac6b8",
+    "bank_ref": "UTR98F6AA677329",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_16bb5286d02b41",
+    "settlement_id": "setl_811db1a0a905f3",
+    "bank_ref": "UTR07323024545C",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched: all fields reconcile exactly",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "payment_id": "pay_a9aff1c62d5f05",
+    "settlement_id": "setl_521eb97a98a054",
+    "bank_ref": "UTR7A48037B9469",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.01 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.01 (red herring)"
+  },
+  {
+    "payment_id": "pay_d62bc7b3f7b682",
+    "settlement_id": "setl_c0d3467318cecb",
+    "bank_ref": "UTR722A92F2B225",
+    "issue_type": "gst_mdr_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag GST-on-MDR discrepancy: settlement shows INR 12.78 (wrong_rate), correct 18% GST on MDR fee INR 106.54 is INR 19.18 (delta INR -6.4)",
+    "difficulty": "hard",
+    "notes": "variant=wrong_rate; correct_gst=19.18; wrong_gst=12.78"
+  },
+  {
+    "payment_id": "pay_45b11c0eb7c89d",
+    "settlement_id": "setl_0fe1cb5a4b81ed",
+    "bank_ref": "UTRAF9DEA1B86F5",
+    "issue_type": "clean",
+    "expected_match": true,
+    "expected_verdict": "matched, no real issue -- INR -0.02 is float rounding noise, must NOT be flagged as a discrepancy",
+    "difficulty": "hard",
+    "notes": "rounding_noise=-0.02 (red herring)"
+  },
+  {
+    "payment_id": "pay_dc7d3a376f54ae",
+    "settlement_id": "setl_952ad9504d17ec",
+    "bank_ref": "UTR9F7D1567ED48",
+    "issue_type": "amount_mismatch",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag amount discrepancy of INR 260.01 not explained by MDR/GST/TDS -- investigate partial refund/chargeback applied post-settlement",
+    "difficulty": "hard",
+    "notes": "[overlap: commission_miscalc + amount_mismatch] unexplained_delta=260.01"
+  },
+  {
+    "payment_id": "pay_90165b399f164b",
+    "settlement_id": "setl_d3f3827ba0695d",
+    "bank_ref": "UTR563382B717B8",
+    "issue_type": "tds_miscalc",
+    "expected_match": true,
+    "expected_verdict": "matched, but flag TDS discrepancy: settlement applied INR 337.2 (legacy_rate), correct Sec 194O TDS on gross INR 33719.93 is INR 33.72 (delta INR 303.48)",
+    "difficulty": "hard",
+    "notes": "variant=legacy_rate; correct_tds=33.72; wrong_tds=337.2"
+  }
+]

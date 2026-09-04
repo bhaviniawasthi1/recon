@@ -1,0 +1,482 @@
+[
+  {
+    "payment_id": "pay_537c9792ab8755",
+    "settlement_id": "setl_1cacad0b28b765",
+    "bank_ref": "UTR183982D296AF",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_4223053b214a79",
+    "settlement_id": "setl_d1139b9af5e804",
+    "bank_ref": "UTR09AF7530B5B9",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_bc935110cb477e",
+    "settlement_id": "setl_bcd448ced6e3fa",
+    "bank_ref": "UTR0260D2CC2842",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_5712caa65c66c4",
+    "settlement_id": "setl_6ee870afffb91f",
+    "bank_ref": "UTR9F82AF07AD05",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_b030391d2dab5a",
+    "settlement_id": "setl_d4a7163bfaa2ac",
+    "bank_ref": "UTRF5FF912A7BAF",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_8c0f135d4d596e",
+    "settlement_id": "setl_f18858d221b7c6",
+    "bank_ref": "UTR1309439221E5",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_5cac216ed34f1e",
+    "settlement_id": "setl_811f16c812b0ca",
+    "bank_ref": "UTRB12306AF6995",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_e8c4d180253dea",
+    "settlement_id": "setl_aeed7f5da28acf",
+    "bank_ref": "UTR61D0C6496709",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_bc5c741c25c8a3",
+    "settlement_id": "setl_363d1000b27beb",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_8ab9fe9552637e",
+    "settlement_id": "setl_49e94266d15ef9",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_95d7917c3f8f03",
+    "settlement_id": "setl_c4b02ee367935d",
+    "bank_ref": "UTRF2A55C0CA8F3",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_cd528c5e1cb94d",
+    "settlement_id": "setl_7af70ef9399a7a",
+    "bank_ref": "UTR2C957838C65C",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_b3b09a2df16aaf",
+    "settlement_id": "setl_04fa314f4d3d65",
+    "bank_ref": "UTR35FFB112A350",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_38f1eb00a7035c",
+    "settlement_id": "setl_590e5b0ef15238",
+    "bank_ref": "UTRAB9A6DCACC2C",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_04b62e8a0df9fa",
+    "settlement_id": "setl_7f099294a78652",
+    "bank_ref": "UTR54F7ACE68A29",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_170241fea37fec",
+    "settlement_id": null,
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "no settlement record found (exact match only)"
+  },
+  {
+    "payment_id": "pay_a5a01c5e1cd862",
+    "settlement_id": "setl_e2e0fde341623a",
+    "bank_ref": "UTRCE8F009F3B7A",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_6531ea62038457",
+    "settlement_id": "setl_55d125a16d40dc",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_b6ab9e2f7d0498",
+    "settlement_id": "setl_bb598c853ded92",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_896555d305afc1",
+    "settlement_id": "setl_9c110666c740a7",
+    "bank_ref": "UTR3BBBC496D73D",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_ec64c435a25929",
+    "settlement_id": "setl_5f5955fb0a8e1f",
+    "bank_ref": "UTR0BB94260FB49",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_e549c02202ffc8",
+    "settlement_id": "setl_08d346836ae6f3",
+    "bank_ref": "UTR117C84AC8BCD",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_d0f0be6a0859bb",
+    "settlement_id": "setl_86c237796ea70d",
+    "bank_ref": "UTR03FB55AA4CA7",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_310431da3e21ec",
+    "settlement_id": "setl_054854a0c6b8eb",
+    "bank_ref": "UTR84785D62BA0A",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_6e2fdda2f5c6c4",
+    "settlement_id": "setl_aa13e674740c47",
+    "bank_ref": "UTREE2AE926ED80",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_4132fc78211a47",
+    "settlement_id": "setl_ee735151b6afeb",
+    "bank_ref": "UTR07F613DD9F8D",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_bc95444cf7035d",
+    "settlement_id": "setl_e674fae0cfee9f",
+    "bank_ref": "UTR7EA6413F14CF",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_d593dfa2bcac7c",
+    "settlement_id": "setl_96e139c25d919a",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_17cf2062bf68fa",
+    "settlement_id": "setl_e9cfffa53aa60d",
+    "bank_ref": "UTRF70B94288F72",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_dd74c87ba70dd0",
+    "settlement_id": "setl_e6164b30a5ee8c",
+    "bank_ref": "UTR24D0B32F3BDF",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_3ac4563fcf7f67",
+    "settlement_id": "setl_dcd8807d6a9d68",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_30096186ca4f23",
+    "settlement_id": "setl_0f19f5eace3bff",
+    "bank_ref": "UTR2FA25DDFBDA5",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_02c778de812479",
+    "settlement_id": "setl_bc6b45fa6b4ec2",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_a21ea3f0739ffb",
+    "settlement_id": "setl_68afa3516f715d",
+    "bank_ref": "UTR6A5625EFAEE6",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_7eb00adef88e37",
+    "settlement_id": "setl_f6ad41d1e987ae",
+    "bank_ref": "UTR41D45C47D756",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_d69814d82cd49c",
+    "settlement_id": "setl_05f5814817476c",
+    "bank_ref": "UTR2B51EE131441",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_c300044656be3e",
+    "settlement_id": "setl_dce526461a9f21",
+    "bank_ref": "UTR99579EF6D846",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_725ae0a80bdcbb",
+    "settlement_id": "setl_e917ce4a80095f",
+    "bank_ref": "UTR33D9CAD7DDE0",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_4018410e4ac755",
+    "settlement_id": "setl_157f8f4d050c51",
+    "bank_ref": "UTR12CE7606C536",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_fc21971944fc0b",
+    "settlement_id": "setl_fad2917356d0ed",
+    "bank_ref": "UTRA9A2C1F1A423",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_5d103880a1ce6e",
+    "settlement_id": "setl_0374051558c245",
+    "bank_ref": "UTR22E14F735438",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_ca10992923eb0b",
+    "settlement_id": "setl_22320f4e849ea1",
+    "bank_ref": "UTRC9902F82338D",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_2cde93ed474721",
+    "settlement_id": "setl_7567f15701c153",
+    "bank_ref": "UTRA649944EDFD6",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_a67b6930a624ac",
+    "settlement_id": null,
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "no settlement record found (exact match only)"
+  },
+  {
+    "payment_id": "pay_780e849f9328df",
+    "settlement_id": "setl_52b3e8e898ecfd",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_d8c09aad62f495",
+    "settlement_id": "setl_1b724000021def",
+    "bank_ref": "UTR75E8403A4651",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_45e0049b829b73",
+    "settlement_id": "setl_974f2aab9460b6",
+    "bank_ref": "UTR76CA37AA846A",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_5a89178b144de2",
+    "settlement_id": "setl_a43cd19876b424",
+    "bank_ref": "UTRCEB2FA2DAD91",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_4056c29b82de8e",
+    "settlement_id": "setl_183bdecfac87e5",
+    "bank_ref": "UTR063CCAFC1C09",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_0725877d2c094f",
+    "settlement_id": "setl_77f643f9488449",
+    "bank_ref": "UTRD87087DD6606",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_12786c543d6238",
+    "settlement_id": "setl_fd2dd488a6e8c3",
+    "bank_ref": "UTR754039FAAF30",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_df1429b8b0eeff",
+    "settlement_id": "setl_78e01e2579c478",
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "bank UTR does not exact-match settlement UTR; no fallback attempted"
+  },
+  {
+    "payment_id": "pay_2d0da3b5b72c6f",
+    "settlement_id": "setl_5ac61e85f5e0b0",
+    "bank_ref": "UTR4D48A3664E52",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_cab6134307f168",
+    "settlement_id": "setl_f1a380a5eac6b8",
+    "bank_ref": "UTR98F6AA677329",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_16bb5286d02b41",
+    "settlement_id": "setl_811db1a0a905f3",
+    "bank_ref": "UTR07323024545C",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_a9aff1c62d5f05",
+    "settlement_id": "setl_521eb97a98a054",
+    "bank_ref": "UTR7A48037B9469",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_d62bc7b3f7b682",
+    "settlement_id": "setl_c0d3467318cecb",
+    "bank_ref": "UTR722A92F2B225",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_45b11c0eb7c89d",
+    "settlement_id": "setl_0fe1cb5a4b81ed",
+    "bank_ref": "UTRAF9DEA1B86F5",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_dc7d3a376f54ae",
+    "settlement_id": "setl_952ad9504d17ec",
+    "bank_ref": "UTR9F7D1567ED48",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  },
+  {
+    "payment_id": "pay_90165b399f164b",
+    "settlement_id": "setl_d3f3827ba0695d",
+    "bank_ref": "UTR563382B717B8",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "UTR matched exactly; no further checks performed"
+  }
+]

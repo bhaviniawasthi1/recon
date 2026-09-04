@@ -1,0 +1,302 @@
+[
+  {
+    "payment_id": "pay_6b65a6a48b8148",
+    "order_id": "order_4737819096da1d",
+    "amount": 9067.87,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T10:00:00",
+    "vendor_id": "vendor_9",
+    "upi_sub_rail": "rupay_credit_on_upi"
+  },
+  {
+    "payment_id": "pay_d8f564135be612",
+    "order_id": "order_ce9ff57f43b7a3",
+    "amount": 4734.13,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T02:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_a9488d990bbb25",
+    "order_id": "order_fc377a4c4a1554",
+    "amount": 26044.24,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T20:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_9bf0027312476f",
+    "order_id": "order_baa80dd488bd64",
+    "amount": 31626.64,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T17:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_f16287e4e9c349",
+    "order_id": "order_508ebad7b7c93a",
+    "amount": 18142.24,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T04:00:00",
+    "vendor_id": "vendor_1",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_827050a82369b5",
+    "order_id": "order_0c0fd195c17af0",
+    "amount": 16385.54,
+    "method": "wallet",
+    "status": "captured",
+    "created_at": "2026-07-01T19:00:00",
+    "vendor_id": "vendor_7",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_c03987108976e3",
+    "order_id": "order_5715bd6fa41612",
+    "amount": 32474.37,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T08:00:00",
+    "vendor_id": "vendor_9",
+    "upi_sub_rail": "rupay_credit_on_upi"
+  },
+  {
+    "payment_id": "pay_f4188f3f8a14be",
+    "order_id": "order_eb2263dd87c542",
+    "amount": 7004.84,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T09:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_c2b6d2c5fa5d31",
+    "order_id": "order_20de435d2031d7",
+    "amount": 32976.06,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T19:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "bank_account"
+  },
+  {
+    "payment_id": "pay_a65e688eabf3ad",
+    "order_id": "order_847fd9b4e64d1b",
+    "amount": 32125.76,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T17:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_7c441fe7ab4220",
+    "order_id": "order_b92da22b21df30",
+    "amount": 3327.95,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T13:00:00",
+    "vendor_id": "vendor_1",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_6712303a0f844f",
+    "order_id": "order_dc96925eccf3a1",
+    "amount": 29457.48,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T05:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "rupay_credit_on_upi"
+  },
+  {
+    "payment_id": "pay_f810238303c72b",
+    "order_id": "order_d9441fa5c0e9ab",
+    "amount": 29398.7,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T01:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "bank_account"
+  },
+  {
+    "payment_id": "pay_fed4057dbb0265",
+    "order_id": "order_b7e99acaa97065",
+    "amount": 12943.43,
+    "method": "wallet",
+    "status": "captured",
+    "created_at": "2026-07-01T17:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_2f923996d9f195",
+    "order_id": "order_acdabacc1165e2",
+    "amount": 2701.05,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T18:00:00",
+    "vendor_id": "vendor_8",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_506e5a9ab75858",
+    "order_id": "order_21813d25655238",
+    "amount": 42071.58,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T02:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_5958a499eeea16",
+    "order_id": "order_3e896c64e117da",
+    "amount": 9709.97,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T19:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "rupay_credit_on_upi"
+  },
+  {
+    "payment_id": "pay_8da01097be0f05",
+    "order_id": "order_9ad620ab48212d",
+    "amount": 12011.3,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T16:00:00",
+    "vendor_id": "vendor_2",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_a319dcb4217d65",
+    "order_id": "order_bdc14f1f295d6f",
+    "amount": 2127.29,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T04:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_dc570131f8e1da",
+    "order_id": "order_35c7936c5b9962",
+    "amount": 16504.62,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T13:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "wallet_on_upi"
+  },
+  {
+    "payment_id": "pay_ecab3301bc8f7d",
+    "order_id": "order_696608aaee49f3",
+    "amount": 39681.52,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T03:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_3a43b2badf0f06",
+    "order_id": "order_3170f437a8f7ef",
+    "amount": 15832.18,
+    "method": "wallet",
+    "status": "captured",
+    "created_at": "2026-07-01T11:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_42deffccf86c2c",
+    "order_id": "order_fbc9f87af668a6",
+    "amount": 42274.79,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T10:00:00",
+    "vendor_id": "vendor_9",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_85197ff4006ed6",
+    "order_id": "order_afd5dea589d7fd",
+    "amount": 11574.3,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T02:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_6703b6365380b9",
+    "order_id": "order_2095eef68dedf9",
+    "amount": 22894.44,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T05:00:00",
+    "vendor_id": "vendor_2",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_82dc4c8e36b522",
+    "order_id": "order_f5b78cc7e6b3c9",
+    "amount": 21004.72,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T20:00:00",
+    "vendor_id": "vendor_7",
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_3eae00320bd4a9",
+    "order_id": "order_d98868dd9c7c73",
+    "amount": 36324.35,
+    "method": "card",
+    "status": "captured",
+    "created_at": "2026-07-01T12:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_8498e113b22746",
+    "order_id": "order_3fcb75468eb225",
+    "amount": 9965.02,
+    "method": "upi",
+    "status": "captured",
+    "created_at": "2026-07-01T16:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": "wallet_on_upi"
+  },
+  {
+    "payment_id": "pay_28be9288e5af6e",
+    "order_id": "order_7337c599798443",
+    "amount": 37401.03,
+    "method": "wallet",
+    "status": "captured",
+    "created_at": "2026-07-01T16:00:00",
+    "vendor_id": null,
+    "upi_sub_rail": null
+  },
+  {
+    "payment_id": "pay_269cd696236c7b",
+    "order_id": "order_271e3ee2b1a6b1",
+    "amount": 14488.97,
+    "method": "netbanking",
+    "status": "captured",
+    "created_at": "2026-07-01T13:00:00",
+    "vendor_id": "vendor_5",
+    "upi_sub_rail": null
+  }
+]

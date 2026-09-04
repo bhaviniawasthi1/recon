@@ -1,0 +1,242 @@
+[
+  {
+    "payment_id": "pay_6b65a6a48b8148",
+    "settlement_id": "setl_c241330b01a9e7",
+    "bank_ref": "UTR6C307511B2B9",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_d8f564135be612",
+    "settlement_id": "setl_89463e85759cde",
+    "bank_ref": "UTR60E7A113EC1B",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_a9488d990bbb25",
+    "settlement_id": "setl_ddd1dfb23b982e",
+    "bank_ref": "UTR7412B2934729",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_9bf0027312476f",
+    "settlement_id": "setl_6123fdf77656af",
+    "bank_ref": "UTRA3D70628ECE6",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_f16287e4e9c349",
+    "settlement_id": "setl_654821d07fcd9e",
+    "bank_ref": "BATCH5040/50A9A491",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'BATCH5040/50A9A491' does not string-match settlement UTR 'UTR757750A9A491'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_827050a82369b5",
+    "settlement_id": "setl_a0a04dc427209b",
+    "bank_ref": "UTR6C12ACE8AE34",
+    "verdict": "matched_flagged",
+    "issue_type": "commission_miscalc",
+    "explanation": "vendor commission discrepancy for vendor_7: settlement deducted INR 1638.55, expected INR 3064.1 at contracted rate (delta INR -1425.55)"
+  },
+  {
+    "payment_id": "pay_c03987108976e3",
+    "settlement_id": "setl_287d06ca6f4cc6",
+    "bank_ref": "UTRB8DB0672F42D",
+    "verdict": "matched_flagged",
+    "issue_type": "amount_mismatch",
+    "explanation": "unexplained amount discrepancy of INR -392.88 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_f4188f3f8a14be",
+    "settlement_id": "setl_7d15438552fbe4",
+    "bank_ref": "UTR5CEC4EB5EDD9",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_c2b6d2c5fa5d31",
+    "settlement_id": "setl_8cbfedb0f264ac",
+    "bank_ref": "UTRDF57C59A8715",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_a65e688eabf3ad",
+    "settlement_id": "setl_3985c3cf3f76be",
+    "bank_ref": "UTR969B66620562",
+    "verdict": "matched_flagged",
+    "issue_type": "amount_mismatch",
+    "explanation": "unexplained amount discrepancy of INR -314.8 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_7c441fe7ab4220",
+    "settlement_id": "setl_93829b43922fe1",
+    "bank_ref": "UTR7914C12",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'UTR7914C12' does not string-match settlement UTR 'UTR7914C120C8DC'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_6712303a0f844f",
+    "settlement_id": null,
+    "bank_ref": null,
+    "verdict": "unmatched",
+    "issue_type": "missing_settlement",
+    "explanation": "no settlement record found for this transaction"
+  },
+  {
+    "payment_id": "pay_f810238303c72b",
+    "settlement_id": "setl_7c52fa17680ac0",
+    "bank_ref": "utr66aa9385dd59",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'utr66aa9385dd59' does not string-match settlement UTR 'UTR66AA9385DD59'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_fed4057dbb0265",
+    "settlement_id": "setl_4bf50b52309d25",
+    "bank_ref": "UTR944528C00EF8",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_2f923996d9f195",
+    "settlement_id": "setl_1eb0e38a675dd5",
+    "bank_ref": "UTR3F07F81",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'UTR3F07F81' does not string-match settlement UTR 'UTR3F07F81491D6'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_506e5a9ab75858",
+    "settlement_id": "setl_750cab754ccc9b",
+    "bank_ref": "UTREF8C485BC07A",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_5958a499eeea16",
+    "settlement_id": "setl_702cdd20286218",
+    "bank_ref": "UTR4D71C366B41B",
+    "verdict": "matched_flagged",
+    "issue_type": "amount_mismatch",
+    "explanation": "unexplained amount discrepancy of INR -288.02 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_8da01097be0f05",
+    "settlement_id": "setl_341ef40b57c700",
+    "bank_ref": "UTR439472E6DA58",
+    "verdict": "matched_flagged",
+    "issue_type": "commission_miscalc",
+    "explanation": "vendor commission discrepancy for vendor_2: settlement deducted INR 1201.13, expected INR 996.94 at contracted rate (delta INR 204.19)"
+  },
+  {
+    "payment_id": "pay_a319dcb4217d65",
+    "settlement_id": "setl_6d7ce3c9b4a69f",
+    "bank_ref": "UTR13432E6",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'UTR13432E6' does not string-match settlement UTR 'UTR13432E611CA3'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_dc570131f8e1da",
+    "settlement_id": "setl_1a50aec3aabc25",
+    "bank_ref": "UTRE256A6DC8F54",
+    "verdict": "matched_flagged",
+    "issue_type": "tds_miscalc",
+    "explanation": "TDS discrepancy: settlement deducted INR 33.0, expected INR 16.5 under Sec 194O (delta INR 16.5)"
+  },
+  {
+    "payment_id": "pay_ecab3301bc8f7d",
+    "settlement_id": "setl_bc2cbb0ddd334c",
+    "bank_ref": "UTR28C13091444D",
+    "verdict": "matched_flagged",
+    "issue_type": "tds_miscalc",
+    "explanation": "TDS discrepancy: settlement deducted INR 396.82, expected INR 39.68 under Sec 194O (delta INR 357.14)"
+  },
+  {
+    "payment_id": "pay_3a43b2badf0f06",
+    "settlement_id": "setl_dd463c09475287",
+    "bank_ref": "UTR4774BC58C5F8",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_42deffccf86c2c",
+    "settlement_id": "setl_98b8e4cc1bc044",
+    "bank_ref": "UTRC9535B63BA81",
+    "verdict": "matched_flagged",
+    "issue_type": "commission_miscalc",
+    "explanation": "vendor commission discrepancy for vendor_9: settlement deducted INR 0.0, expected INR 5538.0 at contracted rate (delta INR -5538.0)"
+  },
+  {
+    "payment_id": "pay_85197ff4006ed6",
+    "settlement_id": "setl_bcae8081bdf070",
+    "bank_ref": "UTR6E6981A35D3D",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  },
+  {
+    "payment_id": "pay_6703b6365380b9",
+    "settlement_id": "setl_f0bbac67aa38d0",
+    "bank_ref": "UTRE71E43A6BF85",
+    "verdict": "matched_flagged",
+    "issue_type": "amount_mismatch",
+    "explanation": "unexplained amount discrepancy of INR -306.1 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_82dc4c8e36b522",
+    "settlement_id": "setl_a8aa71582b70e5",
+    "bank_ref": "UTRA9F2533683F4",
+    "verdict": "matched_flagged",
+    "issue_type": "multiple",
+    "explanation": "GST-on-MDR discrepancy: settlement shows INR 0.0, expected INR 89.23 (18% of MDR fee INR 495.71, delta INR -89.23); unexplained amount discrepancy of INR 75.62 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_3eae00320bd4a9",
+    "settlement_id": "setl_6a18ce4c749627",
+    "bank_ref": "UTR31C681EC935F",
+    "verdict": "matched_flagged",
+    "issue_type": "tds_miscalc",
+    "explanation": "TDS discrepancy: settlement deducted INR 0.0, expected INR 36.32 under Sec 194O (delta INR -36.32)"
+  },
+  {
+    "payment_id": "pay_8498e113b22746",
+    "settlement_id": "setl_74daaebf1f115b",
+    "bank_ref": "U T R A A E65FC176F2",
+    "verdict": "matched_flagged",
+    "issue_type": "utr_mismatch",
+    "explanation": "UTR mismatch: bank ref 'U T R A A E65FC176F2' does not string-match settlement UTR 'UTRAAE65FC176F2'; linked via internal_txn_id + amount/date fallback"
+  },
+  {
+    "payment_id": "pay_28be9288e5af6e",
+    "settlement_id": "setl_d701410d3f4b1a",
+    "bank_ref": "UTRC715B2B9C40C",
+    "verdict": "matched_flagged",
+    "issue_type": "amount_mismatch",
+    "explanation": "unexplained amount discrepancy of INR -332.04 not attributable to TDS/GST/commission -- investigate refund/chargeback"
+  },
+  {
+    "payment_id": "pay_269cd696236c7b",
+    "settlement_id": "setl_6a34c85410714d",
+    "bank_ref": "UTR7746D0BA8AE8",
+    "verdict": "matched_clean",
+    "issue_type": "clean",
+    "explanation": "all amounts reconcile"
+  }
+]

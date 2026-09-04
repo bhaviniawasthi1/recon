@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets -- never commit these even if they show up locally later
+# (e.g. an LLM agent's API key)
+.env
+.env.*
+*.key
+
+# Scratch/regenerable build artifacts
+bundle.json

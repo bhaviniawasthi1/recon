@@ -1,0 +1,176 @@
+[
+  {
+    "bank_ref": "UTRDF57C59A8715",
+    "credit_amount": 32943.08,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTRDF57C59A8715-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR6E6981A35D3D",
+    "credit_amount": 11323.72,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR6E6981A35D3D-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR3F07F81",
+    "credit_amount": 2399.48,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR3F07F81-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR439472E6DA58",
+    "credit_amount": 10550.12,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTR439472E6DA58-SETTLEMENT"
+  },
+  {
+    "bank_ref": "U T R A A E65FC176F2",
+    "credit_amount": 9849.22,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-U T R A A E65FC176F2-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR969B66620562",
+    "credit_amount": 31115.43,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR969B66620562-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRA3D70628ECE6",
+    "credit_amount": 30848.62,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTRA3D70628ECE6-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR4774BC58C5F8",
+    "credit_amount": 15648.21,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR4774BC58C5F8-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR4D71C366B41B",
+    "credit_amount": 9183.08,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR4D71C366B41B-SETTLEMENT"
+  },
+  {
+    "bank_ref": "utr66aa9385dd59",
+    "credit_amount": 29369.3,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-utr66aa9385dd59-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR5CEC4EB5EDD9",
+    "credit_amount": 6853.2,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR5CEC4EB5EDD9-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR7412B2934729",
+    "credit_amount": 25403.56,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTR7412B2934729-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRB8DB0672F42D",
+    "credit_amount": 27028.48,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTRB8DB0672F42D-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR7746D0BA8AE8",
+    "credit_amount": 11698.39,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR7746D0BA8AE8-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR60E7A113EC1B",
+    "credit_amount": 4617.68,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR60E7A113EC1B-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRE256A6DC8F54",
+    "credit_amount": 16296.34,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTRE256A6DC8F54-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRA9F2533683F4",
+    "credit_amount": 16635.75,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTRA9F2533683F4-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR6C307511B2B9",
+    "credit_amount": 7656.91,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTR6C307511B2B9-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR13432E6",
+    "credit_amount": 2074.95,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTR13432E6-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR28C13091444D",
+    "credit_amount": 38465.27,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTR28C13091444D-SETTLEMENT"
+  },
+  {
+    "bank_ref": "BATCH5040/50A9A491",
+    "credit_amount": 14847.62,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-BATCH5040/50A9A491-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTREF8C485BC07A",
+    "credit_amount": 41036.62,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTREF8C485BC07A-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR6C12ACE8AE34",
+    "credit_amount": 14556.59,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR6C12ACE8AE34-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRE71E43A6BF85",
+    "credit_amount": 20124.9,
+    "credit_date": "2026-07-04",
+    "narration": "NEFT-UTRE71E43A6BF85-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR944528C00EF8",
+    "credit_amount": 12793.03,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR944528C00EF8-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR31C681EC935F",
+    "credit_amount": 35574.25,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTR31C681EC935F-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRC715B2B9C40C",
+    "credit_amount": 36634.39,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTRC715B2B9C40C-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTRC9535B63BA81",
+    "credit_amount": 41234.83,
+    "credit_date": "2026-07-03",
+    "narration": "NEFT-UTRC9535B63BA81-SETTLEMENT"
+  },
+  {
+    "bank_ref": "UTR7914C12",
+    "credit_amount": 2723.59,
+    "credit_date": "2026-07-02",
+    "narration": "NEFT-UTR7914C12-SETTLEMENT"
+  }
+]
